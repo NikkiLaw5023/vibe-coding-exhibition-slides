@@ -90,7 +90,7 @@ ratio: equal
 
 <div class="flex flex-col justify-center h-full pr-4">
   <!-- 請將下方的 01_huizong_full.jpg 改成你 public 資料夾裡的實際檔名 -->
-  <img src="/01_huizong_full.jpg" alt="傳 宋徽宗 聽琴圖軸" class="artwork-img" />
+  <img src="./public/01_huizong_full.jpg" alt="傳 宋徽宗 聽琴圖軸" class="artwork-img" />
   <p class="text-xs text-neutral-500 text-center mt-3">
     圖1：傳 宋徽宗《聽琴圖》軸（全圖）｜圖片來源：北京故宮博物院
   </p>

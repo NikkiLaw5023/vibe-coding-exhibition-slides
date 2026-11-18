@@ -15,10 +15,9 @@ mdc: false
 ---
 
 <style>
-/* 黑白灰水墨極簡視覺設定 */
 .slidev-layout {
-  background-color: #f9f8f6 !important; /* 宣紙米白底色，護眼且襯托古畫 */
-  color: #1f1f1f !important;            /* 水墨炭黑文字，確保高對比易讀 */
+  background-color: #f9f8f6 !important;
+  color: #1f1f1f !important;
   font-family: 'Noto Serif TC', serif;
 }
 h1, h2, h3 {
@@ -42,7 +41,6 @@ p, li {
   border-top: 1px solid #d4d4d4;
   margin: 16px 0;
 }
-/* 強制保留畫作原始比例與色彩，絕不裁切變形 */
 .artwork-img {
   max-height: 440px;
   width: auto;
@@ -79,22 +77,7 @@ layout: default
   
   <div class="mt-6 space-y-4 text-justify">
     <p>【請在此貼上你們小組撰寫的「展覽導言」，建議字數控制在 400–450 字。】</p>
-    <p>【說明本展為何不談古琴形制，而是聚焦「聽琴」場景中的政治權力、性別身份、空間安排與身體姿態對比。】</p>
   </div>
-</div>
-
----
-layout: default
----
-
-<!-- ==================== 第 3 頁：第一單元介紹（非必須，若不設單元可整頁刪除） ==================== -->
-<div class="h-full flex flex-col justify-center px-10">
-  <p class="text-xs tracking-widest text-neutral-500 mb-2">UNIT 01 · 第一單元</p>
-  <h2 class="text-3xl mb-6">君臣與廟堂：政治修辭下的琴聲</h2>
-  <div class="w-12 h-0.5 bg-neutral-700 mb-6"></div>
-  <p class="max-w-2xl text-neutral-700">
-    【選填：若設置單元介紹，建議字數為 70–130 字（不計入正文總字數）。簡述本單元如何透過撫琴與聽琴的姿態建構政治秩序。】
-  </p>
 </div>
 
 ---
@@ -102,11 +85,11 @@ layout: split-showcase
 ratio: equal
 ---
 
-<!-- ==================== 展品 01（請複製此頁格式擴充至 6 或 8 件） ==================== -->
+<!-- ==================== 展品 01（測試用單圖版） ==================== -->
 ::left::
 
 <div class="flex flex-col justify-center h-full pr-4">
-  <!-- 請將圖片上傳至 public/ 資料夾，並修改下方的檔名 -->
+  <!-- 請將下方的 01_huizong_full.jpg 改成你 public 資料夾裡的實際檔名 -->
   <img src="/01_huizong_full.jpg" alt="傳 宋徽宗 聽琴圖軸" class="artwork-img" />
   <p class="text-xs text-neutral-500 text-center mt-3">
     圖1：傳 宋徽宗《聽琴圖》軸（全圖）｜圖片來源：北京故宮博物院
@@ -128,67 +111,6 @@ ratio: equal
 
   <div class="text-sm text-justify space-y-3 overflow-y-auto max-h-80 pr-2">
     <p>【請在此貼上你們撰寫的展品介紹正文，每件建議 400–500 字。】</p>
-    <p>【引導觀眾觀察畫面中央撫琴者與兩側聽者的位置、服飾與神態，分析其中的君臣秩序與文人認同。】</p>
-  </div>
-</div>
-
----
-layout: split-showcase
-ratio: equal
----
-
-<!-- ==================== 展品 01 局部特寫（選填：若某件作品需要展示細節放大圖，可使用此頁） ==================== -->
-::left::
-
-<div class="flex flex-col justify-center h-full pr-4">
-  <img src="/01_huizong_detail.jpg" alt="傳 宋徽宗 聽琴圖軸 局部" class="artwork-img" />
-  <p class="text-xs text-neutral-500 text-center mt-3">
-    圖1-1：傳 宋徽宗《聽琴圖》軸（<strong>局部</strong>：撫琴者與聽者神態）
-  </p>
-</div>
-
-::right::
-
-<div class="flex flex-col justify-center h-full pl-4">
-  <p class="text-xs tracking-widest text-neutral-500">DETAIL VIEW · 作品細部</p>
-  <h3 class="text-xl mb-3">局部觀察：眼神與身體朝向</h3>
-  <div class="divider-line"></div>
-  <p class="text-sm text-justify mt-4">
-    【請在此填寫簡短的細部補充說明（不計入正文總字數），引導觀眾注意局部視覺特徵。注意：裁切圖片必須明確標示為「局部」。】
-  </p>
-</div>
-
----
-layout: split-showcase
-ratio: equal
----
-
-<!-- ==================== 展品 02 ==================== -->
-::left::
-
-<div class="flex flex-col justify-center h-full pr-4">
-  <img src="/02_chenhongshou_full.jpg" alt="明 陳洪綬 聽琴圖軸" class="artwork-img" />
-  <p class="text-xs text-neutral-500 text-center mt-3">
-    圖2：明 陳洪綬《聽琴圖》軸（全圖）｜圖片來源：北京故宮博物院
-  </p>
-</div>
-
-::right::
-
-<div class="flex flex-col justify-center h-full pl-4">
-  <p class="text-xs tracking-widest text-neutral-500">EXHIBIT 02</p>
-  <h3 class="text-xl mb-2">明 陳洪綬《聽琴圖》軸</h3>
-  
-  <div class="meta-box mb-4">
-    作者：陳洪綬（1598–1652）<br/>
-    年代：明代｜媒材：絹本設色<br/>
-    尺寸：縱 115.6 厘米，橫 42.3 厘米<br/>
-    收藏：北京故宮博物院
-  </div>
-
-  <div class="text-sm text-justify space-y-3 overflow-y-auto max-h-80 pr-2">
-    <p>【請在此貼上你們撰寫的展品介紹正文，每件建議 400–500 字。】</p>
-    <p>【對比撫琴女子與侍女、側耳傾聽男子的空間距離與身體語言，探討畫面如何轉向閨閣情趣與私密聽覺。】</p>
   </div>
 </div>
 
@@ -204,7 +126,6 @@ layout: default
   
   <div class="mt-6 space-y-4 text-justify">
     <p>【請在此貼上你們小組撰寫的「結語」，建議字數控制在 200–300 字。】</p>
-    <p>【總結「聽琴」母題在不同時代的視覺演變，回應展覽開頭提出的核心問題。】</p>
   </div>
 </div>
 
@@ -216,7 +137,6 @@ layout: default
 <div class="px-6 py-2">
   <h2 class="text-xl mb-3">參考文獻與圖片來源</h2>
   <ul class="text-xs space-y-1.5 text-neutral-600 mb-6 list-disc pl-5">
-    <li>【請列出參考書目、學術文章及各博物館官方藏品頁面網址，格式須與 Word 文檔一致】</li>
     <li>北京故宮博物院數字文物庫：https://digicol.dpm.org.cn/</li>
   </ul>
 
@@ -229,5 +149,4 @@ layout: default
     <li><strong>組員三姓名：</strong>展品 03–04 文字撰寫與圖像細節整理</li>
     <li><strong>組員四姓名：</strong>全稿文字統整、Word 文檔排版與展覽網頁製作</li>
   </ul>
-  <p class="text-xs text-neutral-400 mt-4">（註：依作業規定，網頁僅公開組員姓名與分工，學號僅列於提交之 Word 文檔中。）</p>
 </div>

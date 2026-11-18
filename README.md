@@ -1,75 +1,24 @@
-# Vibe Coding Exhibition Slides
+# 誰在聽？誰在彈？——畫中「聽琴」的兩種傳統
+**Who is Listening? Who is Playing? — Two Traditions of "Listening to the Qin" in Chinese Painting**
 
-Presentation slides for “(Vibe) Coding for Curating a Web-Native Exhibition,” a workshop designed for the Fall 2026 course HUMA1660 Introduction to Chinese Art. 
+HUMA 1660 Introduction to Chinese Art (Fall 2026) — Final Group Project: Curating a Small Online Exhibition
 
-Through AI-assisted workflows for designing and developing online exhibitions, the workshop demonstrates a reflective, AI-collaborative approach to webmaking as a practical model for students undertaking the course group project.
+## View the Online Exhibition / 瀏覽線上展覽
 
-## View the Slides
+👉 **[點擊進入線上展覽 (Click to View Exhibition)](https://[你的GitHub帳號].github.io/vibe-coding-exhibition-slides/)**
 
-[(Vibe) Coding for Curating a Web-Native Exhibition](https://yifanwo.github.io/vibe-coding-exhibition-slides/)
+**Navigation / 瀏覽方式：** Use arrow keys `←` `→` or scroll `↕` to navigate between exhibition pages.
 
-**Navigation:** Keys ↓ → · Scroll ↕
+## Curatorial Team / 策展團隊
 
-## Development
+- 組員一姓名
+- 組員二姓名
+- 組員三姓名
+- 組員四姓名
 
-Built with Slidev, Vue, Vite, and custom layouts/components.
+*(Note: Per course guidelines, student IDs are omitted from public pages and included only in the submitted Word document.)*
 
-## AI Assistance
+## Technical & AI Assistance / 網頁技術與輔助說明
 
-- **Gemini 4 Argon:** Slides layout/implementation
-- **GPT-5.6 Sol:** Slidev deploy/debug
-
-## Demos & Development
-
-### PATH 2: Learn - (half)Scratch
-*Built with Poe/Claude Sonnet 4.6*
-- https://library.hkust.edu.hk/ds-colab/p005/infinite-canvas/
-- Reference: https://tympanus.net/Tutorials/InfiniteCanvas/
-
-### PATH 3: Prompt w/ Cursor
-*Built with Grok 4.7, Gemini 4 Argon, DeepSeek-V4.1-Flash-1017, GPT-Image 2.5 Sunburst, and Qwen 3.6.*
-- https://yifanwo.github.io/dscape-archive/1.0.3.html
-- Reference: https://motionsites.ai/3d-websites?prompt=feathers-atlas
-
-### PATH 4: NL w/ Cursor
-*Built with Grok 4.7, Gemini 4 Argon, DeepSeek-V4.1-Flash-1017, GPT-Image 2.5 Sunburst, and Qwen 3.6.*
-- https://yifanwo.github.io/dscape-archive/1.0.4.html
-
-### PATH 5: NL (Style + Scroll + Story) -> Prompt/Skill
-1. Particle, Glitch Art
-
-*Built with Gemini 4 Argon, DeepSeek-V4.1-Flash-1017, GPT-Image 2.5 Sunburst, and Qwen 3.6.*
-- https://yifanwo.github.io/dscape-archive/1.0.5-1.html
-
-2. Acid Particle + Scroll Effect + Story Sections
-
-*Built with MiniMax-M3.1-Flash, DeepSeek-V4.1-Flash-1017, GPT-Image 2.5 Sunburst, and Qwen 3.6.*
-- https://yifanwo.github.io/dscape-archive/1.0.5-2.html
-
-*Built with Gemini 4 Argon, DeepSeek-V4.1-Flash-1017, GPT-Image 2.5 Sunburst, and Qwen 3.6.*
-- https://yifanwo.github.io/dscape-archive/1.0.5-3.html
-
-3. ASCII + Story Sections
-
-*Built with Gemini 4 Argon, DeepSeek-V4.1-Flash-1017, GPT-Image 2.5 Sunburst, and Qwen 3.6.*
-- https://yifanwo.github.io/dscape-archive/1.0.5-4.html
-- Reference: https://github.com/stackedlol/ascii-sharks
-
-### PATH 6: NL - Twine
-*Built with Grok Bot using SugerCube in Twine, Gemini 4 Argon, DeepSeek-V4.1-Flash-1017, Grok Imagine 2, and Qwen 3.6.*
-- https://yifanwo.github.io/dscape-archive/1.0.6-1.html
-
-*Built with Gemini 4 Argon, DeepSeek-V4.1-Flash-1017, GPT-Image 2.5 Sunburst, and Qwen 3.6.*
-- https://yifanwo.github.io/dscape-archive/1.0.6-2.html
-
-### PATH 7: NL - (hybrid)Scratch
-*Built with Gemini 4 Argon, DeepSeek-V4.1-Flash-1017, GPT-Image 2.5 Sunburst, and Qwen 3.6.*
-- https://yifanwo.github.io/dscape-archive/1.0.7.html
-- Reference: https://unifiersofjapan.framer.website/
-
-### [DScape Archive Repository](https://github.com/yifanwo/dscape-archive)
-
-## Related
-
-[DScape](https://library.hkust.edu.hk/news-events/news/dscape-an-antiquarian-landscape) · [Digital Scholarship](https://library.hkust.edu.hk/ds) · [HKUST Library](https://library.hkust.edu.hk)
-
+- **Framework:** Built with Slidev (forked from the HKUST Library HUMA 1660 workshop template).
+- **AI Assistance:** Used AI tools (e.g., Gemini) for CSS minimal ink-wash styling, Markdown slide layout adaptation, and GitHub Pages deployment troubleshooting.

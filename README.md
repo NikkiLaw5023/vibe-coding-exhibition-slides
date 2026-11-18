@@ -5,7 +5,7 @@ HUMA 1660 Introduction to Chinese Art (Fall 2026) — Final Group Project: Curat
 
 ## View the Online Exhibition / 瀏覽線上展覽
 
-👉 **[點擊進入線上展覽 (Click to View Exhibition)](https://[你的GitHub帳號].github.io/vibe-coding-exhibition-slides/)**
+👉 **[點擊進入線上展覽 (Click to View Exhibition)](https://nikkilaw5023.github.io/vibe-coding-exhibition-slides/)**
 
 **Navigation / 瀏覽方式：** Use arrow keys `←` `→` or scroll `↕` to navigate between exhibition pages.
 
